@@ -15,6 +15,7 @@ func Test1(t *testing.T) {
 		panic(err)
 	}
 	defer fid.Close()
+
 	gid, err := gzip.NewReader(fid)
 	if err != nil {
 		panic(err)

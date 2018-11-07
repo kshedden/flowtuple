@@ -1,3 +1,10 @@
+// Package flowtuple reads binary flowtuple files.  The records of
+// the flowtuple file can be read sqeuentieally into Go structs.
+//
+// The flowtuple file format is documented here:
+//
+// http://www.caida.org/tools/measurement/corsaro/docs/formats.html
+
 package flowtuple
 
 import (
