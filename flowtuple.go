@@ -1,5 +1,5 @@
 // Package flowtuple reads binary flowtuple files.  The records of
-// the flowtuple file can be read sqeuentieally into Go structs.
+// the flowtuple file can be read sequentially into Go structs.
 //
 // The flowtuple file format is documented here:
 //
